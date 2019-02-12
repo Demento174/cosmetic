@@ -1,0 +1,287 @@
+@font-face {
+font-family: 'TTNorms-Regular';
+src: url('../fonts/TTNorms-Regular.otf') format('opentype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'TTNorms-Medium';
+src: url('../fonts/TTNorms-Medium.otf') format('opentype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'TTNorms-Light';
+src: url('../fonts/TTNorms-Light.otf') format('opentype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'TTNorms-Bold';
+src: url('../fonts/TTNorms-Bold.otf') format('opentype');
+font-weight: normal;
+font-style: normal;
+
+}
+body {
+font-size: 15px;
+font-weight: normal;
+font-style: normal;
+position: relative;
+line-height: 1.7;
+margin: 0;
+color: #464447;
+font-family: 'TTNorms-Regular', sans-serif;
+}
+a {
+color: #77afe4;
+text-decoration: none;
+}
+.region-content {
+	background: #f5f5f5;
+}
+#page-wrapper {
+margin: 0 auto;
+position: relative;
+max-width: 1920px;
+}
+.block h2 {
+font-size: 24px;
+color: #464447;
+font-family: 'TTNorms-Bold';
+padding-bottom: 40px;
+text-transform: uppercase;
+position: relative;
+}
+.block h2 span {
+position: relative;
+}
+.max-width .content {
+max-width: 900px;
+}
+.mb15 {
+margin-bottom: 15px;
+}
+.p30 {
+padding: 30px;
+}
+.pl30 {
+padding-left: 30px;
+}
+.pl80 {
+padding-left: 80px;
+}
+.pr30 {
+padding-right: 30px;
+}
+.pt80 {
+padding-top: 80px;
+}
+.pb80 {
+padding-bottom: 80px;
+}
+.pt40 {
+padding-top: 40px;
+}
+.pb40 {
+padding-bottom: 40px;
+}
+.fs-14 {
+font-size: 14px;
+}
+.fs-12 {
+font-size: 12px;
+}
+.node {
+padding: 30px;
+}
+.f-l {
+font-family: 'TTNorms-Light';	
+}
+.f-b {
+font-family: 'TTNorms-Bold';	
+}
+.f-m {
+font-family: 'TTNorms-Medium';
+}
+.tt {
+text-transform: uppercase;
+}
+.c-white {
+color: #fff;
+}
+.bg1 {
+background: #fff;
+}
+.bg3 {
+background: #f5f5f5;
+}
+.bg4 {
+background: #ededed;
+}
+.bg5 {
+background: #464447;
+}
+.tc {
+text-align: center;	
+}
+img {
+max-width: 100%;
+height: auto;
+}
+.pt {
+padding-top: 60px;
+}
+.pb {
+padding-bottom: 60px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+font-family: 'TTNorms-Bold';	
+line-height: 1.4;
+font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.border-style {
+position: relative;
+margin-top: 14px;
+margin-left: 14px;
+}
+.border-style:before,
+.border-style:after {
+content: '';
+position: absolute;
+background: #bbe0fb;
+
+}
+.border-radius {
+border-radius: 300px;
+-moz-border-radius: 300px;
+position: relative;
+margin-right: 15px;
+margin-left: 15px;	
+margin-bottom: 40px;
+border: 1px solid #e1e1e1;
+
+}
+
+.border-radius a {
+display: block;
+position: relative;	
+}
+.border-radius a img {
+display: block;	
+border-radius: 300px;
+margin: 1px;
+}
+.border-radius a:after {
+content: '';
+position: absolute;
+left: 0;
+top: 0px;
+bottom: 0;
+border: 14px solid #f5f5f5;
+right: 0;
+border-radius: 300px;
+}
+.border-style:before {
+width: 14px;
+left: -14px;
+top: -14px;
+bottom: 50px;
+
+}
+.border-style:after {
+height: 14px;
+left: 0;
+width: 56%;
+top: -14px;
+
+}
+.footer {
+line-height: 23px;
+}
+.footer a {
+text-decoration: underline;
+}
+.block-1 h2 {
+text-align: center;
+max-width: 586px;
+margin-left: auto;
+margin-right: auto;
+}
+.block-2 h2 {
+text-align: right;
+max-width: 818px;
+
+}
+.text-bg p {
+overflow: hidden;
+white-space: nowrap;
+font-size: 	160px;
+line-height: 160px;
+color: #eeeeee;
+-ms-user-select: none;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+cursor: default;
+}
+@media (max-width:1650px) {
+	.text-bg p {
+font-size: 	140px;
+line-height: 140px;
+}
+
+}
+@media (max-width:1450px) {
+		.text-bg p {
+font-size: 	130px;
+line-height: 130px;
+}
+
+}
+@media (max-width:1360px) {
+.text-bg p {
+font-size: 	110px;
+line-height: 110px;
+}
+iframe {
+max-width: 100%;
+height: auto;
+}
+
+}
+@media (max-width:1100px) {
+
+
+}
+@media (max-width:768px) {
+.text-bg p {
+font-size: 	90px;
+line-height: 90px;
+}
+.border-radius {
+display: inline-block;
+vertical-align: top;
+margin-right: 0;	
+margin-bottom: 15px;
+}
+
+.pl80 {
+padding-left: 30px;
+}
+.pt80 {
+padding-top: 30px;
+}
+.pb80 {
+padding-bottom: 30px;
+}
+
+
+}
+@media (max-width:560px) {
+
+}
